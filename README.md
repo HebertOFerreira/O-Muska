@@ -8,7 +8,7 @@ I know who I need learning more about JavaScript and Jquery, but I wanted to sho
 
 I use Visual Studio Community 2015, because I'm student and get it for free. I like VS, he has nice tools, and direct download of codes and solutions who I need. 
 
-
+---------------------------
 Eu usei pela primeira vez os conceitos de Bootstrap - não fiz os códigos, baixei diretamente do site da globo.com-. O que eu quero mostrar é uma evolução graduativa dos meus estudos em HTML5 e CSS3. Ainda possui algumas falhas - de identação, e tags-, mas com o tempo eu vou melhorando os códigos, conforme vou aprendendo.
 
 Achei muito interessante bootstrap, e a falicidade como ele é implementando dentro do HTML, estava quebrando a cabeça para fazer transição de slides em JavaScript, e com Bootstrap foi bem fácil.
