@@ -1,0 +1,458 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+body {
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    margin: 0px auto;
+    height: 0px auto;
+    width: 1366px;
+    max-width: 100%;
+    min-width: 50%;
+    
+   
+}
+
+/*************************************************************************************************/
+/*******************************Conteiner********************************************************/
+/************************************************************************************************/
+
+.container { /* Total da página */
+    width: 1366px;
+    height: auto; /* alterar no fim*/
+    margin: 0px auto;
+    
+}
+
+/*************************************************************************************************/
+/*******************************Topo********************************************************/
+/************************************************************************************************/
+
+.topo {
+    background-color: #FFF;
+    width: 1360px;
+    height:165px;
+}
+
+
+.banner{
+   width:300px;
+    float:left;
+
+}
+
+.anuncio{ 
+    width:1045px;
+    float:left;
+    margin-left:15px;
+    margin-top:10px;
+}
+
+    .anuncio img{
+    width:1045px;
+    height: 100px;
+    
+}
+
+.topo form{
+   margin-top: 14px;
+   margin-right: 50px;
+   float: right;
+
+}
+
+
+
+/*************************************************************************************************/
+/*******************************Nav********************************************************/
+/************************************************************************************************/
+.menu {
+    height: 40px; /*altura do centro*/
+    width: 1366px;
+    background-color: #004fa7; /* cor de fundo*/
+    margin: 0px auto;
+    color: #FFF;
+   
+}
+
+
+.nav {
+    width: 1366px;
+    height: 40px;
+    
+}
+
+    /******************************UL MENU***************************************/
+
+    .nav ul {
+        list-style-type: none; /* retira os marcadores da lista  das fonts*/
+        margin: 22px; /* desloca as fonts para o top ou down*/
+        float: left;
+         
+
+    }
+
+        .nav ul li {
+            margin: -12px; /* desloca as fonts*/
+            float: left;
+          
+        }
+
+            .nav ul li a {
+                display: inline;
+                padding: 0px 30px; /* distancia das letras*/            
+                background-color: #004fa7; /*cor da fonte externo*/
+                text-decoration: none;
+                margin-left:50px;
+                font-size: 30px; /* tamanho da font*/
+                color: #FFF; /*cor da letra*/
+                font-family: Calibri Light; /*estilo da letra*/
+                
+                 
+            }
+
+                .nav ul li a:hover { /*da um stilo de sombra ao passar o mouse sobre o botão*/
+                    text-decoration: initial;
+                    background-color: #FFF; /* fundo*/
+                    color: #000; /* ao passar o mouse */
+                }
+
+}
+
+    /******************************UL MENU***************************************/
+
+    .nav ul {
+        list-style-type: none; /* retira os marcadores da lista  das fonts*/
+        margin: 22px; /* desloca as fonts para o top ou down*/
+        float: left;
+         
+
+    }
+
+        .nav ul li {
+            margin: -12px; /* desloca as fonts*/
+            float: left;
+          
+        }
+
+            .nav ul li a {
+                display: inline;
+                padding: 0px 30px; /* distancia das letras*/            
+                background-color: #004fa7; /*cor da fonte externo*/
+                text-decoration: none;
+                margin-left:50px;
+                font-size: 30px; /* tamanho da font*/
+                color: #FFF; /*cor da letra*/
+                font-family: Calibri Light; /*estilo da letra*/
+                
+                 
+            }
+
+                .nav ul li a:hover { /*da um stilo de sombra ao passar o mouse sobre o botão*/
+                    text-decoration: initial;
+                    background-color: #FFF; /* fundo*/
+                    color: #000; /* ao passar o mouse */
+                }
+
+                
+
+               
+
+/******************************Conteudo***************************************/
+
+.conteudo {
+    
+    margin-top: 20px;
+    height: 0px auto;
+    width: 1366px;
+    font-size: 16px;
+     
+}
+
+    .conteudo article h1 {
+        margin-left: 520px;
+        padding-top:10px;
+        font-size:25px;
+        
+
+    }
+
+    .conteudo article h2 {
+        margin-left:10px;
+        font-size:20px;
+
+    }
+
+    .conteudo article p{
+        margin-left:10px;
+
+    }
+
+    .conteudo figure{
+       margin-left:250px;
+
+    }
+
+
+.caracteristica{
+    
+    background-color:#e0e3e5 ;
+
+}
+
+/******************************aside***************************************/
+
+.lateral{
+   
+    width:1366px;
+    height:150px;
+    
+
+}
+
+.lateral h1{
+   font-size:20px;
+   margin-left:10px;
+   
+  
+
+}
+
+    .lateral a {
+    text-decoration:none;
+    
+    }
+
+
+
+    .lateral01{
+        float:left;
+       border-right:#000 thin solid;
+        width:445px;
+        height:0px auto;
+        margin-left: 5px;
+    }
+
+    .lateral02{
+        float:left;
+         border-right:#000 thin solid;
+        width:445px;
+        height:0px auto;
+        margin-left: 5px;
+    }
+
+    .lateral03{
+        float:left;
+       
+        width:440px;
+       height:0px auto;
+          margin-left: 5px;
+    }
+
+    .carousel img{
+    width: 728px;
+   height: 450px;
+
+}
+
+
+    /******************************Conteudo2***************************************/
+
+.conteudo2 {
+    margin-top: 20px;
+    height: 0px auto;
+    width: 1366px;
+    font-size: 16px;
+   
+   
+
+}
+
+.grupo1{
+    width: 1366px;
+    height: 460px;
+    
+
+}
+
+.grupo1 h5{
+    float: left;
+    width: 500px;
+    height:20px;
+    margin-top: 80px;
+    text-align:right;
+
+}
+
+.grupo1 article h1{
+        margin-left: 560px;
+        padding-top:10px;
+        font-size:25px;
+
+}
+
+.grupo1 article p{
+        
+       width: 890px;
+       float: left;
+        
+
+}
+.modal-header{      /*img de dentro*/
+    width: 670px;  
+    height:400px;
+
+}
+
+section#modal figure img{  /*img de dentro*/
+   height:350px;
+    width:670px;
+       }
+
+
+
+.modal.hide.fade{ /*layout de dentro*/
+    width: 700px;
+
+} 
+                               
+ section#modal{ /*img de fora */
+    float:right;
+    height:180px;
+    width:280px;
+    margin-right:100px;
+    
+
+}
+
+
+
+  section#modal img{ /*img de fora */
+   
+    height:180px;
+    width:280px;
+   
+}
+
+   
+
+    .conteudo2 article h2 {
+        margin-left:10px;
+        font-size:20px;
+
+    }
+
+    .conteudo2 article p{
+        margin-left:10px;
+
+
+
+    }
+
+    .conteudo2 figure1{
+       margin-left:10px;
+       float:left;
+       width:450px;
+       height: 350px;
+
+    }
+
+    .conteudo2 figure1 img{
+        width:450px;
+       height: 350px;
+
+    }
+
+    .conteudo2 figure2{
+      
+       float:right;
+       width:400px;
+       height: 250px;
+       margin-top:-50px;
+
+    }
+
+        .conteudo2 figure2 img {
+             width:400px;
+       height: 250px;
+
+        }
+.caracteristica{
+    
+    background-color:#e0e3e5 ;
+
+}
+
+
+.grupo2 {
+    width: 1366px;
+    height: 0px auto;
+    
+}
+
+.grupo2 figure3{
+    margin-left: 170px;
+
+}
+
+.grupo2 figure3 figcaption{
+    margin-left: 170px;
+
+}
+
+
+.carousel {
+   width: 728px;
+   height: 500px;
+   margin-left:300px;
+   
+}
+
+.conteudo3{
+    font-size:16px;
+
+}
+    .conteudo3 h1{
+    text-align:center;
+
+}
+
+    .conteudo3 figure{
+    
+    margin:0px;
+    width: 1366px;
+    height: 402px;
+
+}   
+
+    .conteudo3 figure img{
+    
+    margin-left:255px;
+    width: 695px;
+    height: 402px;
+
+}   
+ .conteudo3 figure figcaption{
+    
+    margin-left:255px;
+    
+    
+
+}   
+
+
+/******************************rodape***************************************/
+.rodape {
+    margin-top:500px;
+    margin: 0px 0px 0px 0px;
+    width: 1366px;
+    height: 50px;
+    background-color: #004fa7;
+}
+
+
+    .rodape p {
+        color: #FFF;
+        padding: 15px 0px 0px 0px;
+        text-align: center;
+    }
+    
